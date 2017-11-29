@@ -1,0 +1,15 @@
+This includes scripts which compute possible CFG parse tree for given sentence using Earley Algorithm and probabilistic Earley Algorithm
+
+command "make run1" will run the Earley.py script and print all the possible sequence for 'the man saw the dog with the telescope' sentence
+
+command "make run2" will run the ProbabilisticEarley.py script and print the most probable sequence for 'the man saw the dog with the telescope' sentence.
+
+====================
+Info about the Files
+====================
+
+ProbabilisticEarley.py : Python Script for the implementation for the Probabilistic Earley Algorithm
+Earley.py : Python Script for the implementation for the Earley Algorithm
+probability.py : Includes probabilities for the each rule
+rules.py : Includes CFG rules
+Makefile : This is the makefile to run each script
